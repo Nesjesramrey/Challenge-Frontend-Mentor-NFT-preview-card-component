@@ -11,12 +11,29 @@ body{
 }
 
 .maincontainer{
-    width: 285px;
-    height: 600px;
+    width: 280px;
+    height: 520px;
     background-color: hsl(216, 50%, 16%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 20px;
     text-align: left;
+    border-radius: 15px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+#cardtitle{
+    font-weight: bold;
+}
+
+#cardparagraph{
+    color: hsl(215, 51%, 70%);
+}
+
+#cardprice{
+    color: hsl(178, 100%, 50%);
 }
